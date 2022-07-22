@@ -30,7 +30,27 @@ If you are not sure which one is your board, disconnect your board, then run the
 
 ## Thonny
 
-1. Download the [Thonny](https://thonny.org/) IDE.
+Connect your board if it ois not connected. The follow these steps:
+
+1. Download the [Thonny](https://thonny.org/) IDE
+2. Create a new program and add the following code:
+
+```python
+import time
+from machine import Pin
+
+led = Pin(2, Pin.OUT)
+
+while True:
+
+    led.value(1)
+    time.sleep(1)
+
+    led.value(0)
+    time.sleep(1)
+
+    print.write("Working...")
+```
 
 ## Tutorial Requirements:
 

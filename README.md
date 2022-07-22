@@ -30,7 +30,7 @@ If you are not sure which one is your board, disconnect your board, then run the
 
 ## Thonny
 
-1 Download the [Thonny](https://thonny.org/) IDE.
+1. Download the [Thonny](https://thonny.org/) IDE.
 
 ## Tutorial Requirements:
 

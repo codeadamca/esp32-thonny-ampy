@@ -12,7 +12,7 @@ You will need to know the port name your board is connected to. Run the followin
 ls /dev/tty.*
 ```
 
-The command will list your existing ports in use:
+The command will list your existing ports:
 
 ```
 /dev/tty.Bluetooth-Incoming-Port	/dev/tty.SoundcoreLifeQ35-Spp1
@@ -20,9 +20,17 @@ The command will list your existing ports in use:
 /dev/tty.SoundcoreLifeQ35-OTA1
 ```
 
+If possible, determine which port is your ESP32 board and copy it for later. 
+
+If you are not sure which one is your board, disconnect your board, then run the list command again. Take note as to which port has been removed from the list. This is the port we will need for later. Mine port is:
+
+```
+/dev/tty.usbserial-14220
+```
+
 ## Thonny
 
-1 Download the [Thonny]() IDE.
+1 Download the [Thonny](https://thonny.org/) IDE.
 
 ## Tutorial Requirements:
 

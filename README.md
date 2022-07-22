@@ -28,6 +28,12 @@ If you are not sure which one is your board, disconnect your board, then run the
 /dev/tty.usbserial-14220
 ```
 
+## LED
+
+If your ESP32 board has an onboard LED, you can use pin two. If not, you will need to connect the circuit below and change the pin to 22:
+
+![https://github.com/codeadamca/esp32-thonny-ampy/blob/main/esp32-led.png?raw=true]
+
 ## Thonny
 
 Connect your board if it ois not connected. The follow these steps:
@@ -51,6 +57,8 @@ while True:
 
     print.write("Working...")
 ```
+
+
 
 ## Tutorial Requirements:
 

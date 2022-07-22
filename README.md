@@ -64,11 +64,63 @@ Connect your board if it is not connected. Then follow these steps:
 3. Click ```Interpreter```
 4. From the first dropdown, select ```Micropython (ESP32)```
 5. From the second dropdown, choose your port or the ```Try to detect port automatically``` option
+
+![Thonny Preferences](https://github.com/codeadamca/esp32-thonny-ampy/blob/main/thonny-preferences.png?raw=true)
+
 6. Open your LED program
 7. Click on the green play botton to uplaod your code to your ESP32 board and execute
 
 ## Ampy
 
+A second option is to use the IDE of your choice and then use the Terminal and a small Python module called [Ampy](https://pypi.org/project/adafruit-ampy/) to upload and execute.
+
+This process will assume you have Python and PIP instapped. 
+
+### Python
+
+Note that a Mac usually comes with Python installed. My Mac has Python 2 installed, so I used [Brew](https://docs.brew.sh/Homebrew-and-Python#python-3y) to install Python 3. Run the following command to see what version of Python you have installed:
+
+```
+python --version
+```
+
+If the response is Python 2, try this command:
+
+```
+python3 --version
+```
+
+If this does not work, you will need to install Python 3 using [Brew](https://docs.brew.sh/Homebrew-and-Python#python-3y).
+
+### PIP
+
+Check that you have PIP installed. Try the following commands:
+
+```
+pip --version
+pip3 --version
+python2 -m pip --version
+```
+
+If you no not have PIP installed, you can install it using [Python](https://pypi.org/project/pip/).
+
+### Ampy
+
+Install Ampy using the format that best worked for you, use one of the following:
+
+```
+pip install adafruit-ampy
+pip3 install adafruit-ampy
+python3 -m pip install adafruit-ampy
+```
+
+Then using the Terminal, navigate to the same folder as your ```led.py``` file and run the following command:
+
+```
+ampy --port /dev/tty.usbserial-14210 run led.py
+```
+
+You will need to replace the port name with your port name.
 
 ## Tutorial Requirements:
 

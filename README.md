@@ -1,4 +1,4 @@
-# esp32-thonny-ampy
+# Basic Introduction to an esp32 Board
 
 A walkthrough of using Thonny and Ampy to connect to an ESP32 board for the first time. 
 
@@ -122,7 +122,9 @@ ampy --port /dev/tty.usbserial-14210 run led.py
 
 You will need to replace the port name with your port name.
 
-## Tutorial Requirements:
+***
+
+## Repo Resources
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
 * [Silabs ESP32 Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)

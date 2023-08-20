@@ -32,7 +32,7 @@ If you are not sure which one is your board, disconnect your board, then run the
 
 If your ESP32 board has an onboard LED, you can likely use pin two. If not, you will need to connect the circuit below and change the pin to 22:
 
-![LED Circuit](https://github.com/codeadamca/esp32-thonny-ampy/blob/main/esp32-led.png?raw=true)
+![LED Circuit](_readme/esp32-led.png)
 
 Then create the following Micropython program using your favourite IDE. I would recommend [VSCode](https://code.visualstudio.com/) or [Thonny](https://thonny.org/).
 
@@ -65,7 +65,7 @@ Connect your board if it is not connected. Then follow these steps:
 4. From the first dropdown, select ```Micropython (ESP32)```
 5. From the second dropdown, choose your port or the ```Try to detect port automatically``` option
 
-![Thonny Preferences](https://github.com/codeadamca/esp32-thonny-ampy/blob/main/thonny-preferences.png?raw=true)
+![Thonny Preferences](_readme/thonny-preferences.png)
 
 6. Open your LED program
 7. Click on the green play botton to uplaod your code to your ESP32 board and execute

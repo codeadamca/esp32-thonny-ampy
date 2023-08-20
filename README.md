@@ -65,7 +65,7 @@ Connect your board if it is not connected. Then follow these steps:
 4. From the first dropdown, select ```Micropython (ESP32)```
 5. From the second dropdown, choose your port or the ```Try to detect port automatically``` option
 
-![Thonny Preferences](_readme/thonny-preferences.png)
+   ![Thonny Preferences](_readme/thonny-preferences.png)
 
 6. Open your LED program
 7. Click on the green play botton to uplaod your code to your ESP32 board and execute
